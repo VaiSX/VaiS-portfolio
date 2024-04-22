@@ -195,7 +195,7 @@ const AboutPage = () => {
                   </div>
                   {/* JOB DESC */}
                   <div className="p-3 text-sm italic">
-                   Fine tuned BART model for transcripts and created react app with flash API.{" "}
+                   Fine tuned BART model for transcripts and created react app with flask API.{" "}
                   </div>
                 </div>
                 {/* CENTER */}
