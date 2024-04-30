@@ -70,7 +70,7 @@ const ContactPage = () => {
           <span>Your message:</span>
           <textarea
             rows={6}
-            className="bg-transparent border-b-2 border-b-white outline-none resize-none"
+            className="bg-transparent  border-b-2 border-b-white outline-none resize-none"
             name="user_message"
           />
           <span>Your Email:</span>

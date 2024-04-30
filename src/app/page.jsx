@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Background } from "@/components/background";
 
@@ -42,6 +43,20 @@ const Homepage = () => {
       <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center">
         Make sure to check out my work and leave a message
       </p>  
+      <div className="flex  gap-4  justify-center mt-5 md:hidden">
+        <Link href="https://github.com/VaiSX">
+          <Image src="/github.png" alt="" width={24} height={24} />
+        </Link>
+        <Link href="https://www.instagram.com/vais_xo/?next=%2F">
+          <Image src="/instagram.png" alt="" width={24} height={24} />
+        </Link>
+        <Link href="https://leetcode.com/VaiSmonster/">
+          <Image src="/leetcode.png" alt="" width={24} height={24} />
+        </Link>
+        <Link href="https://www.linkedin.com/in/vais18/">
+          <Image src="/linkedin.png" alt="" width={24} height={24} />
+        </Link>
+      </div>
     </motion.div>
       <div className="w-full flex gap-4 mx-auto mt-10 justify-center">
             <motion.button 
